@@ -1,0 +1,95 @@
+#main #page_one {
+  height: 80vh;
+  width: 100%;
+}
+#main #page_one #page_one_header{
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 17rem;
+}
+#main #page_one #page_one_header #logo h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #E50815;
+}
+#main #page_one #page_one_header button{
+    border: none;
+    background-color: #E50815;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+#main #page_one #page_one_header button:hover{
+    background-color: hsl(356, 93%, 46%,.8);
+}
+#main #page_one #page_one_main{
+  min-height :80vh;
+  width: 100%;
+  background-image: url("/NETFLIX/main_iamges/main_back.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+  border-bottom: 1rem solid #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+#main #page_one #page_one_main h1{
+ text-align: center;
+ font-size: 4.5rem;
+ color: #fff;
+}
+#main #page_one #page_one_main>h4{
+ text-align: center;
+ font-size: 2.5rem;
+ font-weight: 300;
+ color: #fff;
+ margin-bottom: 1rem;
+ margin-top: 1.5rem;
+}
+#main #page_one #page_one_main #h4{
+ text-align: center;
+ font-size: 2rem;
+ color: #fff;
+ font-weight: 300;
+ margin-bottom: 2rem;
+}
+#main #page_one #page_one_main #box_content_of_page_one{
+    display: flex;
+    gap: 2rem;
+}
+#main #page_one #page_one_main #box_content_of_page_one button{
+    font-size: 2.5rem;
+    background-color: #E50815;
+    border: none;
+    color: #fff;
+    padding: 1.5rem 1.5rem;
+    transition: background-color .3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#main #page_one #page_one_main #box_content_of_page_one button:hover{
+    background-color: hsl(356, 93%, 46%,.8);
+}
+#main #page_one #page_one_main #box_content_of_page_one i{
+    margin-left: 1.5rem;
+}
+#main #page_one #page_one_main #box_content_of_page_one input{
+    padding: 0px 20rem 0px 2.5rem;
+    font-size: 1.5rem;
+    background-color: hsl(189, 16%, 8%,0.5);
+    border: 2px solid #232323;
+    color: #fff;
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+#main #page_five{
+    min-height: 70vh;
+    width: 100%;
+    background-color: #000000;
+    border-bottom: 1rem solid #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main #page_five #box_one{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 0px 5rem;
+    order: 2;
+}
+#main #page_five #box_one h1{
+    font-size: 4.9rem;
+    font-size: 900;
+    color: #fff;
+}
+#main #page_five #box_one h4{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+}
+#main #page_five #box_two{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+}
+#main #page_five #box_two img{
+}

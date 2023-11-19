@@ -1,0 +1,317 @@
+@import url("/NETFLIX/More_codes/page_one.css");
+@import url("/NETFLIX/More_codes/page_two.css");
+@import url("/NETFLIX/More_codes/page_three.css");
+@import url("/NETFLIX/More_codes/page_four.css");
+@import url("/NETFLIX/More_codes/page_five.css");
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Poppins";
+}
+footer{
+  height: 50vh;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer #left{
+  height: 80%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer #left a{
+  color: #dadada;
+  font-size: 1.5rem;
+  opacity: .7;
+}
+footer #right{
+  height: 80%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.8rem;
+  color: #dadada;
+}
+footer #right a{
+  color: #dadada;
+  font-size: 1.8rem;
+  opacity: .7;
+}
+@media screen and (max-width:1631px) {
+  html,
+  body {
+  font-size: 60.5%;
+}
+}
+@media screen and (max-width:1386px) {
+  html,
+  body {
+    font-size: 56.5%;
+  }
+}
+@media screen and (max-width:1370px) {
+  html,
+  body {
+    font-size: 54.5%;
+  }
+}
+@media screen and (max-width:1012px) {
+  html,
+  body {
+    font-size: 50.5%;
+  }
+}
+@media screen and (max-width:937px) {
+  html,
+  body {
+    font-size: 45.5%;
+  }
+}
+@media screen and (max-width:840px) {
+  html,
+  body {
+    font-size: 45.5%;
+  }
+  /* #page 2 work is here */
+  #main #page_two #box_one h4{
+    padding-right: 2rem;
+  }
+  #main #page_two{
+    flex-direction: column;
+  }
+  #main #page_two #box_one h1{
+    text-align: center;
+  }
+  #main #page_two #box_one h4{
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  /* #page 3 work is here */
+    #main #page_three #box_one h4{
+    padding-right: 2rem;
+  }
+  #main #page_three{
+    flex-direction: column;
+  }
+  #main #page_three #box_one h1{
+    text-align: center;
+  }
+  #main #page_three #box_one h4{
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
+  /* #page 5 work is here */
+  #main #page_five #box_one h4{
+    padding-right: 2rem;
+  }
+  #main #page_five{
+    flex-direction: column;
+  }
+  #main #page_five #box_one
+  {
+    order: 1;
+  }
+  #main #page_five #box_two{
+    order: 2;
+  }
+  #main #page_five #box_one h1{
+    text-align: center;
+  }
+  #main #page_five #box_one h4{
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
+}
+@media screen and (max-width:667px){
+  html,
+  body{
+    font-size: 40.5%;
+  }
+  #main #page_four #box_one h1{
+    text-align: center;
+  }
+  #main #page_four #box_one h4{
+    text-align: center;
+  }
+}
+@media screen and (max-width:609px){
+  #main #page_three #box_two img{
+    width:600px;
+  }
+  #main #page_five #box_two img{
+    width: 600px;
+  }
+  video{
+    width: 580px;
+  }
+}
+@media screen and (max-width:577px){
+  #main #page_four{
+    position: relative;
+  }
+  #main #page_four #box_one{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #main #page_four #box_one h4{
+    font-size: 1.5rem;
+  }
+  #main #page_three #box_two img{
+    width:575px;
+  }
+  #main #page_five #box_two img{
+    width: 575px;
+  }
+  video{
+    width: 550px;
+  }
+}
+@media screen and (max-width:525px){
+  html,
+  body{
+    font-size: 35%;
+  }
+  #main #page_three #box_two img{
+    width:523px;
+  }
+  #main #page_five #box_two img{
+    width: 523px;
+  }
+  video{
+    width: 500px;
+  }
+}
+@media screen and (max-width:537px){
+  #main #page_three #box_two img{
+    width:500px;
+  }
+  #main #page_five #box_two img{
+    width: 500px;
+  }
+  video{
+    width: 490px;
+  }
+}
+@media screen and (max-width:558px){
+  #main #page_three #box_two img{
+    width:500px;
+  }
+  #main #page_five #box_two img{
+    width: 500px;
+  }
+  video{
+    width: 490px;
+  }
+}
+@media screen and (max-width:479px){
+  html,
+  body{
+    font-size: 34.5%;
+  }
+  #main #page_four #box_one h1{
+    text-align: center;
+  }
+  #main #page_four #box_one h4{
+    text-align: center;
+  }
+  #main #page_three #box_two img{
+    width : 475px;
+  }
+  #main #page_five #box_two img{
+    width: 475px;
+  }
+  video{
+    width: 450px;
+  }
+}
+@media screen and (max-width:421px){
+  html,
+  body{
+    font-size: 31.5%;
+  }
+  #main #page_three #box_two img{
+    width:420px;
+  }
+  #main #page_five #box_two img{
+    width: 420px;
+  }
+  video{
+    width: 400px;
+  }
+}
+@media screen and (max-width:400px){
+  #main #page_three #box_two img{
+    width:350px;
+  }
+  #main #page_five #box_two img{
+    width: 350px;
+  }
+  video{
+    width: 350px;
+  }
+}
+@media screen and (max-width:406px){
+  #main #page_three #box_two img{
+    width:340px;
+  }
+  #main #page_five #box_two img{
+    width: 340px;
+  }
+  video{
+    width: 340px;
+  }
+}
+@media screen and (max-width:456px){
+  #main #page_three #box_two img{
+    width:320px;
+  }
+  #main #page_five #box_two img{
+    width: 320px;
+  }
+  video{
+    width: 320px;
+  }
+}
+@media screen and (max-width:468px){
+  #main #page_three #box_two img{
+    width:300px;
+  }
+  #main #page_five #box_two img{
+    width: 300px;
+  }
+  video{
+    width: 300px;
+  }
+}
+@media screen and (max-width:336px){
+  html,
+  body{
+    font-size: 27.5%;
+  }
+  #main #page_three #box_two img{
+    width:310px;
+  }
+  #main #page_five #box_two img{
+    width: 310px;
+  }
+  video{
+    width: 310px;
+  }
+}
